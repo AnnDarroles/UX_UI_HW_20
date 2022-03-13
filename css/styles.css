@@ -1,0 +1,225 @@
+body{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.15625) 47.92%, #000000 100%), #0E1B3D;
+    height: 4800px;
+    overflow-y: scroll;
+    width:100%;
+}
+.pinned {
+    /*
+    position: fixed;
+    width: 196px;
+    height: 64px;
+    left: 1440px;
+    top: 751px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -4px 17px rgba(255, 138, 0, 0.59);
+    border-radius: 3px;
+    cursor: pointer;
+*/
+    position: fixed;
+    right: 20px;
+    bottom: 110px;
+    cursor: pointer;
+}
+.overviewpinned{
+    position: fixed;
+    left:0px;
+    top: 110px;
+}
+header {
+    background: linear-gradient(180deg, rgba(240, 61, 62, 0.2) 0%, rgba(241, 78, 79, 0.126) 32.81%, rgba(242, 81, 82, 0.124047) 42.19%, rgba(255, 255, 255, 0) 100%), #FFE600;
+    position: absolute;
+    margin:0px;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.headerMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 263px;
+    height: 31px;
+    left: 134px;
+    top: 61px;
+    font-family: Roboto;
+font-style:normal;
+font-display:block;
+font-weight: bold;  
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 117% */
+
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+}
+
+/*----------CASE STUDY--------------- */
+.titleCaseStudy{
+    position: absolute;
+    width: fit-content;
+    height: 65px;
+    left: 555px;
+    top: 268px;
+
+    /* H1 */
+
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 80px;
+    color: white;
+    
+}
+.heroImage{
+    position: absolute;
+width: 828px;
+height: 463px;
+left: 555px;
+top: 350px;
+}
+
+.summary{
+    position: absolute;
+    width: 958px;
+    height: 134px;
+    left: 399px;
+    top: 830px;
+}
+.summaryT{
+    font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+
+color: #FFE600;
+}
+.summaryD{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    
+    
+    color: #FFFFFF;
+}
+
+.resR{
+    position: absolute;
+    width: 958px;
+    height: 134px;
+    left: 800px;
+    top: 980px;
+}
+.resL{
+    position: absolute;
+    width: 958px;
+    height: 134px;
+    left: 399px;
+    top: 980px;
+}
+.resT1{
+    font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+
+color: #FFE600;
+}
+.resL1{
+    /* B2 */
+width: fit-content;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+
+color: #FFFFFF;
+
+}
+
+
+
+.goal{
+    position: absolute;
+    width: 958px;
+    height: 134px;
+    left: 399px;
+    top: 1100px;
+}
+.role{
+    position: absolute;
+    width: 958px;
+    height: 134px;
+    left: 399px;
+    top: 1720px;
+}
+.research{
+    position: absolute;
+    width: 958px;
+    height: 134px;
+    left: 399px;
+    top: 1900px;
+}
+.solution{
+    position: absolute;
+    width: 958px;
+    height: 134px;
+    left: 399px;
+    top: 2800px;
+}
+.dSystem{
+    position: absolute;
+    width: 958px;
+    height: 134px;
+    left: 399px;
+    top: 3580px;
+}
+.more{
+    position: absolute;
+    width: 958px;
+    height: 134px;
+   left: 500px;
+    top: 4400px;
+  
+}
+footer {
+    Position: absolute;
+    margin:0px;
+    width: 100%;
+    height: 106px;
+    left: 0px;
+    top: 4800px;
+    background: linear-gradient(180deg, rgba(240, 61, 62, 0.2) 0%, rgba(241, 78, 79, 0.126) 32.81%, rgba(242, 81, 82, 0.124047) 42.19%, rgba(255, 255, 255, 0) 100%), #FFE600;
+  
+}
+.footerMenu {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+    position: absolute;
+    width: 350px;
+    
+    height: 31px;
+    left: 134px;
+    top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-display: block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+}
